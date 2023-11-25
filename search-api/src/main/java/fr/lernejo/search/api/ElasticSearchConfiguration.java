@@ -26,8 +26,7 @@ public class ElasticSearchConfiguration {
         @Value("${elasticsearch.host:localhost}") String host,
         @Value("${elasticsearch.port:9200}") int port,
         @Value("${elasticsearch.username:elastic}") String username,
-        @Value("${elasticsearch.host:password}")
-        String password) {
+        @Value("${elasticsearch.host:password}") String password) {
         this.host = host;
         this.port = port;
         this.username = username;
